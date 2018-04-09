@@ -1,0 +1,12 @@
+################################################################################
+# These macros are used by makefiles and argument files.
+# When a space is included in the path and quotes (") cannot be used,
+# a _ESCAPE version of the macro is added that escapes the space with backslash (\).
+################################################################################
+
+export FLASH1=C:/Users/b46911/Documents/Kinetis/KinetisEA/KEA128/EVB/Software/TRK-KEA128_Lab4/FLASH
+export GNU_Make_Install_DirEnv=$(CWInstallLocationEnv)/gnu/bin
+export FLASH=C:/Users/b46911/workspace/Kinetis_Auto/TRK-KEA128_Lab4/FLASH
+export ProjDirPath=F:/Example/TRK-KEA128_Lab4
+export CWInstallLocationEnv=C:/Freescale/CW MCU v10.7
+export ARMSourceryDirEnv=$(CWInstallLocationEnv)/Cross_Tools/arm-none-eabi-gcc-4_7_3/bin
